@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+## Welcome To my Project👋
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Project Name -  To-do app
 
-## Available Scripts
+## Please run the server before doing anything in the app
 
-In the project directory, you can run:
+<a target="blank" href="https://to-do-app-ambula.vercel.app/">Deployed Link</a>
 
-### `npm start`
+<br />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Project Holder : Sanghamitra Satpathy
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## About
+This project was about creating a website where user can use the To-do app and shopping app in the same website. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To-do App is a website where user can add tasks to the To-do list, update the status and remove it. It also allows user to shop the products that are available. User can add product to cart and remove it 
+This website is made using HTML, CSS, JavaScript, React.js, Redux.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Tech Stacks used:- 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* HTML, CSS, Javascript, React.js, Redux
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Deployment - Vercel.
 
-### `npm run eject`
+## Project
+**Following pages have been implemented in the clone**
+* Home Page
+* To-do page
+* Add To-do Page
+* Ticket Booking Page
+* Cart Page
+* About Page
+* Contact Page
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Functionalities :
+* Functional navigation bar
+* Add Task, Update status and delete task
+* Add products to the cart from the product page
+* Remove product from cart
