@@ -9,7 +9,7 @@ const ProductCard = ({ props }) => {
     const dispatch= useDispatch();
 
     const handlecart= (e)=>{
-      dispatch(AddCart(props));
+      dispatch(AddCart(props)).then(()=>alert("Product added to cart"))
     }
 
   return (
@@ -29,10 +29,10 @@ const ProductCard = ({ props }) => {
           <p style={{color:"#757070", h:"55px", fontSize:"13px"}}>{desc}</p>
           <p style={{height:"30px", fontWeight:"600", fontSize:"14px"}}>{net}</p>
           <div style={{display:"flex", justifyContent:"space-between", alignItems:"center"}}>
-            <p style={{color:"#D11243", fontSize:"16px"}}>MRP: ₹{price}</p>
+            <p style={{color:"#b52231", fontSize:"16px"}}>MRP: ₹{price}</p>
             <button
               onClick={handlecart}
-              style={{border:"1px solid #D11243", backgroundColor:"#D11243", color:"white", padding:"7px", height:"40px", fontSize:"16px"}}
+              style={{border:"1px solid #b52231", backgroundColor:"#b52231", color:"white", padding:"7px", height:"40px", fontSize:"16px"}}
               >ADD TO CART</button>
           </div>
         </div>

@@ -4,42 +4,30 @@
       "id": 1,
       "title": "Complete Ambula Assignment",
       "status": true
+    },
+    {
+      "title": "sleep",
+      "status": false,
+      "id": 2
     }
   ],
   "cart": [
     {
-      "_id": "63d78a2b0940c24e87456188",
-      "name": "Chicken Leg Curry Cut - Large Pieces",
-      "image": "https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/cbede953-c94c-3c48-a9a2-bad815fa1c3a/original/ChickenLegCurryCutpiecesHeroShot.jpg",
-      "price": 140,
-      "orgprice": 165,
-      "discount": 15,
-      "desc": "4-6 Large bone-in pieces cut from the leg",
+      "_id": "63d789f30940c24e87456182",
+      "name": "Chicken Curry Cut - Large Pieces",
+      "image": "https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/49db5b92-40b1-b9b7-3b1c-09c86daf753f/original/large.jpg",
+      "price": 179,
+      "orgprice": 179,
+      "discount": 0,
+      "desc": "Fresh Nakhre for tender bone-in & boneless chicken cuts",
       "pieces": 0,
-      "weight": 300,
-      "net": "300gms",
+      "weight": 500,
+      "net": "500gms",
       "delivery": "Today in-90 min",
       "category": "Chicken",
       "subcat": "currycut",
       "__v": 0,
-      "id": 10
-    },
-    {
-      "_id": "63d78a420940c24e8745618a",
-      "name": "Chicken Thigh Boneless",
-      "image": "https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/ffd4144f-25a7-6f26-2d90-9a9db0332dda/original/Chicken_Thigh_Boneless_Hero_Shot.jpg",
-      "price": 275,
-      "orgprice": 275,
-      "discount": 0,
-      "desc": "Fresh nakhre for fresh, juicy & tender chicken thigh cuts",
-      "pieces": 0,
-      "weight": 450,
-      "net": "450gms",
-      "delivery": "Today in-90 min",
-      "category": "Chicken",
-      "subcat": "boneless",
-      "__v": 0,
-      "id": 11
+      "id": 2
     }
   ]
 }

@@ -23,7 +23,7 @@ const AddTask = () => {
   }
 
   return (
-    <div>
+    <div style={{paddingTop: "40px"}}>
       <TaskNav />
       <form>
         <input value={data.title}

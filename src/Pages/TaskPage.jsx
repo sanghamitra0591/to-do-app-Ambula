@@ -17,7 +17,7 @@ const Taskpage = () => {
     }
   }, [dispatch, taskList.length]);
   return (
-    <div>
+    <div style={{paddingTop: "40px"}}>
         <TaskNav />
         {taskList && taskList.map((item)=>{
             return <TaskItems key={item.id} id={item.id} title={item.title} status={item.status} />

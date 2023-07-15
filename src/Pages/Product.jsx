@@ -21,9 +21,9 @@ const Product = () => {
       }
 
   return (
-    <div>
+    <div style={{paddingTop: "30px"}}>
       <div style={{display: "flex", justifyContent: "center", padding: "20px"}}>
-        <button onClick={()=>navigate("/cart")} style={{border:"4px solid #D11243", backgroundColor:"white", color:"#D11243", padding:"7px", height:"40px", fontSize:"16px", fontWeight: "600", borderRadius: "15px"}}>Go to Cart</button>
+        <button onClick={()=>navigate("/cart")} style={{border:"4px solid #b52231", backgroundColor:"white", color:"#b52231", padding:"7px", height:"40px", fontSize:"16px", fontWeight: "600", borderRadius: "15px"}}>Go to Cart</button>
       </div>
       <div style={{width: "85%", margin: "auto", display:"grid", gap:"25px", gridTemplateColumns:"repeat(3, 1fr)"}}>
         {data && data.map((el)=>{

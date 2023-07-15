@@ -18,12 +18,12 @@ const Cart = () => {
 
     const handleRemove= (id)=>{
         dispatch(deleteCart(id))
-        .then(()=>dispatch(getCart()));
+        .then(()=>dispatch(getCart())).then(()=>alert("Product removed successfully"))
       }
     
 
   return (
-    <div style={{paddingTop: "20px"}}>
+    <div style={{paddingTop: "40px"}}>
       {cartData.length>0 ? <div style={{ width:"85%", margin:"auto", display:"flex", justifyContent:"space-between", alignItems:"flex-start"}}>
         <div style={{width:"60%"}}>
             <p style={{fontSize:"27px"}}>Order Summary : </p>
@@ -36,10 +36,10 @@ const Cart = () => {
                                 <div style={{fontSize:"18px", textAlign: "left"}}>
                                     <p>{el.name}</p>
                                     <p>{el.net}</p>
-                                    <p style={{color:"#D11243"}}>₹{el.price}</p>
+                                    <p style={{color:"#b52231"}}>₹{el.price}</p>
                                 </div>
                             </div>
-                            <button style={{height:"40px", fontSize:"16px", backgroundColor:"#D11243", color:"white"}} onClick={(id=el.id)=>handleRemove(el.id)} >Remove</button>
+                            <button style={{height:"40px", fontSize:"16px", backgroundColor:"#b52231", color:"white"}} onClick={(id=el.id)=>handleRemove(el.id)} >Remove</button>
                         </div>
                     </div>
                 })}
@@ -61,10 +61,10 @@ const Cart = () => {
                         <p>Delivery Charge</p>
                         <p>₹0</p>
                     </div>
-                    <div style={{border: "0.1px solid #D11243"}}></div>
+                    <div style={{border: "0.1px solid #b52231"}}></div>
                     <div style={{display:"flex", justifyContent:"space-between", fontWeight: "600"}}>
                         <p style={{fontSize:"20px"}}>Total Amount</p>
-                        <p style={{color:"#D11243"}}>₹{totalprice}</p>
+                        <p style={{color:"#b52231"}}>₹{totalprice}</p>
                     </div>
                 </div>
             </div>
